@@ -3,7 +3,7 @@ import React from 'react';
 class AuthForm extends React.Component {
 	constructor(props) {
 		super(props);
-		document.title = "Авторизация | Редактор БЗ";
+		document.title = "Авторизация | Green API";
 		this.state = {
 			idInstance:       localStorage.getItem("idInstance"),
 			apiTokenInstance: localStorage.getItem("apiTokenInstance")

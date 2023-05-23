@@ -245,7 +245,7 @@ class App extends React.Component {
                     className   = "form-control"
                     id          = "phone"
                     name        = "phone"
-                    placeholder = "Введите телефон"
+                    placeholder = "Введите телефон 79ХХХХХХХХХ"
                     value       = {this.state.enteredPhone}
                     onChange={(e)=>this._onChangePhone(e)}
                   />
